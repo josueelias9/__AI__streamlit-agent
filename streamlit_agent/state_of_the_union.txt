@@ -1,0 +1,31 @@
+Cliente: ¿Por qué debería elegir su curso en lugar de otros disponibles en línea?
+
+Vendedor: Nuestro curso se destaca por su enfoque práctico y la experiencia de nuestros instructores. Tenemos un historial probado de éxito con estudiantes que han logrado avances significativos en sus carreras gracias a nuestro programa.
+
+Cliente: ¿Qué diferencia a su curso de los gratuitos que se encuentran en línea?
+
+Vendedor: Si bien hay recursos gratuitos disponibles, nuestro curso ofrece un plan de estudios estructurado y una guía personalizada. También proporcionamos retroalimentación y soporte directo de instructores expertos para asegurarnos de que obtengas el máximo valor de tu inversión en tu desarrollo.
+
+Cliente: ¿Cuál es el costo del curso y cuáles son las opciones de pago?
+
+Vendedor: El costo del curso es de $500, pero ofrecemos opciones de pago en cuotas para que sea más accesible. También tenemos becas disponibles para estudiantes con necesidades financieras. ¿Te gustaría obtener más información sobre nuestras opciones de pago?
+
+Cliente: ¿Cómo puedo estar seguro de que este curso es adecuado para mi nivel de habilidad?
+
+Vendedor: Entiendo tus preocupaciones. Ofrecemos una evaluación previa al curso que te ayudará a determinar tu nivel de habilidad y si este curso es adecuado para ti. Además, adaptamos el contenido para satisfacer las necesidades de diferentes niveles de experiencia.
+
+Cliente: ¿Cuál es la tasa de éxito de los estudiantes que han completado este curso?
+
+Vendedor: Un alto porcentaje de nuestros estudiantes han experimentado avances significativos en sus carreras después de completar el curso. También proporcionamos testimonios y ejemplos de éxito que puedes revisar. Estamos comprometidos con tu éxito y trabajaremos contigo para alcanzar tus metas.
+
+Cliente: ¿Qué tipo de apoyo y recursos adicionales ofrecen a los estudiantes?
+
+Vendedor: Ofrecemos soporte en línea durante todo el curso. Además, tendrás acceso a nuestra comunidad de estudiantes y a sesiones de preguntas y respuestas con instructores. También proporcionamos material adicional, ejercicios y recursos para ayudarte a consolidar tus conocimientos.
+
+Cliente: ¿Cómo se entregará el contenido del curso y cuál es la duración?
+
+Vendedor: El contenido se entrega a través de una plataforma en línea con acceso las 24 horas. El curso suele tomar alrededor de 12 semanas para completarse, pero puedes avanzar a tu propio ritmo y acceder a los materiales incluso después de terminar el curso.
+
+Cliente: ¿Qué sucede si no estoy satisfecho con el curso?
+
+Vendedor: Valoramos la satisfacción de nuestros estudiantes. Ofrecemos una garantía de satisfacción. Si en algún momento sientes que el curso no cumple con tus expectativas, puedes solicitar un reembolso dentro de los primeros 30 días.

@@ -14,7 +14,7 @@ st.set_page_config(page_title="Has tus preguntas", page_icon="laureate.png")
 #image
 import streamlit as st
 from PIL import Image
-image = Image.open('laureate.png')
+image = Image.open('./laureate.png')
 st.image(image, caption='Sunrise by the mountains')
 
 st.title("🤖🌐📚 Preguntas de curso")

@@ -7,8 +7,17 @@ from langchain.agents.agent_types import AgentType
 from langchain.callbacks import StreamlitCallbackHandler
 from langchain.agents.agent_toolkits import SQLDatabaseToolkit
 
-st.set_page_config(page_title="Has tus preguntas", page_icon="🦜")
-st.title("🦜 Preguntas de curso")
+
+
+st.set_page_config(page_title="Has tus preguntas", page_icon="laureate.png")
+
+#image
+import streamlit as st
+from PIL import Image
+image = Image.open('laureate.png')
+st.image(image, caption='Sunrise by the mountains')
+
+st.title("🤖🌐📚 Preguntas de curso")
 
 # User inputs
 radio_opt = ["Use sample database - Chinook.db", "Connect to your SQL database"]
@@ -36,32 +45,22 @@ if not openai_api_key:
     st.stop()
 
 # Setup agent
-llm = OpenAI(openai_api_key=openai_api_key, temperature=0, streaming=True)
+import os
+os.environ['OPENAI_API_KEY'] = openai_api_key
+
+from my_agent import MyAgent
+myAgent = MyAgent()
+agent = myAgent.initialize_agent2()
 
 
-@st.cache_resource(ttl="2h")
-def configure_db(db_uri):
-    return SQLDatabase.from_uri(database_uri=db_uri)
-
-
-db = configure_db(db_uri)
-
-toolkit = SQLDatabaseToolkit(db=db, llm=llm)
-
-agent = create_sql_agent(
-    llm=llm,
-    toolkit=toolkit,
-    verbose=True,
-    agent_type=AgentType.ZERO_SHOT_REACT_DESCRIPTION,
-)
 
 if "messages" not in st.session_state or st.sidebar.button("Clear message history"):
-    st.session_state["messages"] = [{"role": "assistant", "content": "How can I help you?"}]
+    st.session_state["messages"] = [{"role": "assistant", "content": "Buenos dias. ¿Como te puedo ayudar?"}]
 
 for msg in st.session_state.messages:
     st.chat_message(msg["role"]).write(msg["content"])
 
-user_query = st.chat_input(placeholder="Ask me anything!")
+user_query = st.chat_input(placeholder="¡Pregunta lo que desees!")
 
 if user_query:
     st.session_state.messages.append({"role": "user", "content": user_query})

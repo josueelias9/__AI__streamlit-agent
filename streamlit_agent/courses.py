@@ -9,7 +9,7 @@ st.set_page_config(page_title="Has tus preguntas", page_icon="laureate.png")
 
 #image
 from PIL import Image
-image = Image.open("./streamlit_agent/laureate.png") # en produccion
+image = Image.open("laureate.png") # en produccion
 #image = Image.open("./streamlit_agent/laureate.png") # en desarrollo
 st.image(image, caption='Sunrise by the mountains')
 

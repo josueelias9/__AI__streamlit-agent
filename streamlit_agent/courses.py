@@ -9,13 +9,14 @@ st.set_page_config(page_title="Has tus preguntas", page_icon="laureate.png")
 
 #image
 from PIL import Image
-image = Image.open("laureate.png")
+image = Image.open("./streamlit_agent/laureate.png") # en produccion
+#image = Image.open("./streamlit_agent/laureate.png") # en desarrollo
 st.image(image, caption='Sunrise by the mountains')
 
 st.title("🤖🌐📚 Preguntas de curso")
 
 # User inputs
-radio_opt = ["Use sample database - Chinook.db", "Connect to your SQL database"]
+radio_opt = ["Base de datos del instituto", "Connect to your SQL database"]
 selected_opt = st.sidebar.radio(label="Choose suitable option", options=radio_opt)
 if radio_opt.index(selected_opt) == 1:
     db_uri = st.sidebar.text_input(

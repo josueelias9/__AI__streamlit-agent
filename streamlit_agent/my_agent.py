@@ -28,7 +28,7 @@ class MyAgent:
             relevant_parts.append(p)
             if relevant_parts[-3:] == ["langchain", "docs", "modules"]:
                 break
-        doc_path = str(Path(*relevant_parts) / "state_of_the_union.txt")
+        doc_path = str(Path(*relevant_parts) / "streamlit_agent/state_of_the_union.txt")
 
         #-- preparing text tool
         loader = TextLoader(doc_path)

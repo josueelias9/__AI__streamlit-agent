@@ -1,3 +1,13 @@
+# deploy aplicacion
+```
+cd /path/of/repository
+pip3 install -r requirements.txt
+```
+# start aplicacion
+```
+cd /path/of/repository
+streamlit run ./streamlit_agent/courses.py 
+```
 # fuente
 - resolver el problema con WebBaseLoader,
 [link](https://github.com/langchain-ai/langchain/issues/11095)
@@ -9,11 +19,6 @@
 - agent + vector store, [link](https://python.langchain.com/docs/modules/agents/how_to/agent_vectorstore#use-the-agent-solely-as-a-router)
 - Creating a SQLite database with Python code, [link](https://www.sqlitetutorial.net/sqlite-python/creating-database/)
 
-
-```
-cd /path/of/repository/streamlit_agent
-streamlit run streamlit_agent/mrkl_demo.py 
-```
 
 todas las dependencias se tomaron del archivo pyproject.toml
 

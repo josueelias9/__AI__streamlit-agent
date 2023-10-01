@@ -1,20 +1,15 @@
 import streamlit as st
 from pathlib import Path
-from langchain.llms.openai import OpenAI
-from langchain.agents import create_sql_agent
-from langchain.sql_database import SQLDatabase
-from langchain.agents.agent_types import AgentType
+
 from langchain.callbacks import StreamlitCallbackHandler
-from langchain.agents.agent_toolkits import SQLDatabaseToolkit
 
 
 
 st.set_page_config(page_title="Has tus preguntas", page_icon="laureate.png")
 
 #image
-import streamlit as st
 from PIL import Image
-image = Image.open('./laureate.png')
+image = Image.open("laureate.png")
 st.image(image, caption='Sunrise by the mountains')
 
 st.title("🤖🌐📚 Preguntas de curso")

@@ -94,7 +94,7 @@ class MyAgent:
 
 if __name__ == "__main__":
     import os
-    os.environ['OPENAI_API_KEY'] = "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"
+    os.environ['OPENAI_API_KEY'] = "tu_api_key"
 
     obj = MyAgent()
 
